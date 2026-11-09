@@ -1176,7 +1176,7 @@ function sincronizarCodigosNetflix() {
                 <div className="flex justify-between items-center border-b border-zinc-800 pb-4">
                   <div>
                     <h3 className="text-xl font-extrabold text-white">Código de Google Apps Script para Gmail</h3>
-                    <p className="text-xs text-zinc-400 mt-1">Pega este código en script.google.com para automatizar la lectura de tus correos.</p>
+                    <p className="text-xs text-zinc-400 mt-1">Pegaj este código en script.google.com para automatizar la lectura de tus correos.</p>
                   </div>
                   <button onClick={() => copiarTexto(codigoGoogleAppsScript, 'script_gmail')} className="px-5 py-3 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs flex items-center gap-2">
                     <Copy className="w-4 h-4" /> <span>Copiar Código</span>
